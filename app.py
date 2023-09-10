@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# from big-mart-sales-prediction.ipynb import predict   # replace with your actual model file and function
+from big-mart-sales-prediction import predict   # replace with your actual model file and function
 
 def main():
     st.title("Big Mart Sales Prediction")
